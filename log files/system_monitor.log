@@ -1,0 +1,48 @@
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         931G  412G  519G  45% /usr/lib/wsl/drivers
+/dev/sdc       1007G  2.3G  954G   1% /
+none            7.8G   76K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.4M  7.8G   1% /init
+none            7.8G  556K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             931G  412G  519G  45% /mnt/c
+D:\             1.9T  290G  1.6T  16% /mnt/d
+tmpfs           1.6G   16K  1.6G   1% /run/user/1000
+tmpfs           1.6G   16K  1.6G   1% /run/user/0
+905M	/var
+576M	/var/log
+572M	/var/log/journal/97a4fde4018f45fc8702a8c01299bde4
+572M	/var/log/journal
+197M	/var/lib
+167M	/var/lib/apt
+166M	/var/lib/apt/lists
+132M	/var/cache
+115M	/var/cache/apt
+70M	/var/lib/apt/lists/archive.ubuntu.com_ubuntu_dists_noble_universe_binary-amd64_Packages
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kratos      1975  100  0.0   8284  4172 pts/0    R+   07:12   0:00 ps aux --sort=-%cpu
+root          92  0.0  0.0  23976  5920 ?        Ss   06:58   0:00 /usr/lib/systemd/systemd-udevd
+root           1  0.0  0.0  21756 12992 ?        Ss   06:58   0:00 /sbin/init
+root          52  0.0  0.1  50440 16336 ?        S<s  06:58   0:00 /usr/lib/systemd/systemd-journald
+kratos       302  0.0  0.0   6252  5540 pts/0    Ss   06:58   0:00 -bash
+message+     159  0.0  0.0   9584  5044 ?        Ss   06:58   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      418  0.0  0.0 382328 10476 ?        Ssl  07:00   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         516  0.0  0.0  20272 11328 ?        Ss   07:01   0:00 /usr/lib/systemd/systemd --user
+root         167  0.0  0.0  18148  8204 ?        Ss   06:58   0:00 /usr/lib/systemd/systemd-logind
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         213  0.0  0.1 107008 22480 ?        Ssl  06:58   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          52  0.0  0.1  50440 16336 ?        S<s  06:58   0:00 /usr/lib/systemd/systemd-journald
+root         170  0.0  0.0 1756096 15812 ?       Ssl  06:58   0:00 /usr/libexec/wsl-pro-service -vv
+root           1  0.0  0.0  21756 12992 ?        Ss   06:58   0:00 /sbin/init
+systemd+     148  0.0  0.0  21452 11960 ?        Ss   06:58   0:00 /usr/lib/systemd/systemd-resolved
+kratos       356  0.0  0.0  20260 11520 ?        Ss   06:58   0:00 /usr/lib/systemd/systemd --user
+root         516  0.0  0.0  20272 11328 ?        Ss   07:01   0:00 /usr/lib/systemd/systemd --user
+polkitd      418  0.0  0.0 382328 10476 ?        Ssl  07:00   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         167  0.0  0.0  18148  8204 ?        Ss   06:58   0:00 /usr/lib/systemd/systemd-logind
